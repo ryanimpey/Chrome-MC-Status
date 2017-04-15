@@ -1,0 +1,20 @@
+body{
+	width: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#title{
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+}
+
+#header-area{
+	background: url('./grass.jpg') repeat-x;
+}
+
+#main-area{
+	background: url('./dirt.jpg');
+	height: 32px;
+}
