@@ -1,8 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "MC Status Checker",
-  "description": "Will tell you the current status of MC and it's servers",
+  "name": "Minecraft Server Status Checker",
+	"short_name": "MC-Status",
+  "description": "Checks the current status of MC servers and displays it easily for you.",
   "version": "0.1",
 
   "browser_action": {
