@@ -11,10 +11,28 @@ body{
 }
 
 #header-area{
-	background: url('./grass.jpg') repeat-x;
+	background:
+		linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ), url('./grass.jpg'),
+		repeat-x;
 }
 
 #main-area{
-	background: url('./dirt.jpg');
-	height: 32px;
+	background:
+		linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ), url('./dirt.jpg');
+	padding-left: 25%;
+}
+
+.status-title{
+	margin: 0px;
+	color: white;
+}
+
+.status-title:nth-child(1){
+	padding-top: 10px;
 }
